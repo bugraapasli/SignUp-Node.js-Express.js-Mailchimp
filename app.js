@@ -73,3 +73,26 @@ app.post("/success", (req,res) => {     // redirecting the users if they want to
 app.listen(port, ()=>{
     console.log('Server is running on port ' + port);
 });
+
+// Mailchimp recommended merge keys
+
+// --------------------
+// Merge Tag: FNAME
+// Name: First Name
+// Type: text (string)
+// --------------------
+// Merge Tag: LNAME
+// Name: Last Name
+// Type: text (string)
+// --------------------
+// Merge Tag: ADDRESS
+// Name: Address
+// Type: address
+// --------------------
+// Merge Tag: PHONE
+// Name: Phone Number
+// Type: phone (string)
+// --------------------
+// Merge Tag: BIRTHDAY
+// Name: Birthday
+// Type: birthday (string)
